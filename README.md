@@ -1,6 +1,6 @@
 # SwiftyFuzzy
 
-Swift fuzzy logic library. Linguistic variables, membership functions, rules, and defuzzification for fuzzy controllers. Port of [EasyFuzzy](https://github.com/cesarrosales/EasyFuzzy) (Java).
+Swift fuzzy logic library. Linguistic variables, membership functions, rules, and defuzzification for fuzzy controllers. Port of [EasyFuzzy](https://github.com/Valtiel/EasyFuzzy) (Java).
 
 Requirements: Swift 6.2+, macOS 13+ / iOS 16+
 
@@ -76,4 +76,4 @@ The demo (`swift run SwiftyFuzzyDemo`) includes a washing-machine style example 
 
 ## License
 
-LGPL. See [EasyFuzzy](https://github.com/cesarrosales/EasyFuzzy) for details.
+LGPL. See [EasyFuzzy](https://github.com/Valtiel/EasyFuzzy) for details.
