@@ -6,19 +6,31 @@ Requirements: Swift 6.2+, macOS 13+ / iOS 16+
 
 ## Installation
 
-```bash
-swift run SwiftyFuzzyDemo
-```
-
-Add to your `Package.swift`:
+Add SwiftyFuzzy as a dependency in your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(path: "../SwiftyFuzzy"), // or .package(url: "...", from: "0.1.0")
+    .package(url: "https://github.com/Valtiel/SwiftyFuzzy.git", from: "0.1.0"),
 ],
 targets: [
     .target(name: "YourApp", dependencies: ["SwiftyFuzzy"]),
 ]
+```
+
+For local development you can point to a checkout instead:
+
+```swift
+.package(path: "../SwiftyFuzzy"),
+```
+
+In Xcode: **File → Add Package Dependencies…** and paste the repository URL.
+
+## Demo
+
+The package ships an executable target with runnable examples. From the repository root:
+
+```bash
+swift run SwiftyFuzzyDemo
 ```
 
 ## Usage
